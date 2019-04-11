@@ -63,7 +63,7 @@ myntcore.deps.bnjs = require('bn.js');
 myntcore.deps.bs58 = require('bs58');
 myntcore.deps.Buffer = Buffer;
 myntcore.deps.elliptic = require('elliptic');
-myntcore.deps.nodeX16r = require('node-x16r');
+myntcore.deps.nodex16s = require('node-x16s');
 myntcore.deps._ = require('lodash');
 
 // Internal usage, exposed for testing/advanced tweaking

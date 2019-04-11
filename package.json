@@ -46,7 +46,7 @@
     "elliptic": "=3.0.3",
     "inherits": "=2.0.1",
     "lodash": "^3.10.1",
-    "node-x16r": "joenilan/node-x16r"
+    "node-x16s": "joenilan/node-x16s"
   },
   "devDependencies": {
     "myntcore-build": "joenilan/myntcore-build",
