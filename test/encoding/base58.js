@@ -1,9 +1,9 @@
 'use strict';
 
 var should = require('chai').should();
-var ravencore = require('../..');
+var myntcore = require('../..');
 var buffer = require('buffer');
-var Base58 = ravencore.encoding.Base58;
+var Base58 = myntcore.encoding.Base58;
 
 describe('Base58', function() {
   var buf = new buffer.Buffer([0, 1, 2, 3, 253, 254, 255]);

@@ -1,21 +1,21 @@
 'use strict';
 
-var ravencore = require('../..');
+var myntcore = require('../..');
 var BN = require('../../lib/crypto/bn');
-var BufferReader = ravencore.encoding.BufferReader;
-var BufferWriter = ravencore.encoding.BufferWriter;
-var BlockHeader = ravencore.BlockHeader;
-var Block = ravencore.Block;
+var BufferReader = myntcore.encoding.BufferReader;
+var BufferWriter = myntcore.encoding.BufferWriter;
+var BlockHeader = myntcore.BlockHeader;
+var Block = myntcore.Block;
 var chai = require('chai');
 var fs = require('fs');
 var should = chai.should();
-var Transaction = ravencore.Transaction;
+var Transaction = myntcore.Transaction;
 
 var dataRawBlockBuffer = fs.readFileSync('test/data/blk220909.dat');
 var dataRawBlockBinary = fs.readFileSync('test/data/blk220909.dat', 'binary');
 var dataJson = fs.readFileSync('test/data/blk220909.json').toString();
 var data = require('../data/blk220909');
-var dataBlocks = require('../data/ravend/blocks');
+var dataBlocks = require('../data/myntd/blocks');
 
 describe('Block', function() {
 

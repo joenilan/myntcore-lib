@@ -1,11 +1,11 @@
 'use strict';
 
-var ravencore = require('../..');
+var myntcore = require('../..');
 var BN = require('../../lib/crypto/bn');
-var BufferReader = ravencore.encoding.BufferReader;
-var BufferWriter = ravencore.encoding.BufferWriter;
+var BufferReader = myntcore.encoding.BufferReader;
+var BufferWriter = myntcore.encoding.BufferWriter;
 
-var BlockHeader = ravencore.BlockHeader;
+var BlockHeader = myntcore.BlockHeader;
 var fs = require('fs');
 var should = require('chai').should();
 

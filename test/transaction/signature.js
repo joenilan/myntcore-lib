@@ -6,12 +6,12 @@ var should = require('chai').should();
 var expect = require('chai').expect;
 var _ = require('lodash');
 
-var ravencore = require('../..');
-var Transaction = ravencore.Transaction;
-var TransactionSignature = ravencore.Transaction.Signature;
-var Script = ravencore.Script;
-var PrivateKey = ravencore.PrivateKey;
-var errors = ravencore.errors;
+var myntcore = require('../..');
+var Transaction = myntcore.Transaction;
+var TransactionSignature = myntcore.Transaction.Signature;
+var Script = myntcore.Script;
+var PrivateKey = myntcore.PrivateKey;
+var errors = myntcore.errors;
 
 describe('TransactionSignature', function() {
 

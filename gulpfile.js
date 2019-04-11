@@ -1,5 +1,5 @@
 
 
-var ravencoreTasks = require('ravencore-build');
+var myntcoreTasks = require('myntcore-build');
 
-ravencoreTasks('lib');
+myntcoreTasks('lib');
